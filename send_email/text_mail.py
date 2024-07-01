@@ -1,7 +1,6 @@
 import smtplib
 
-SENDER_EMAIL = 'graynoodles@outlook.com'
-SENDERPASSWORD = 'ZABlon9900!@#$'
+
 
 def send_email(reciever_email, subject, body):
     message = f'Subject:{subject}\n\n{body}'
@@ -11,4 +10,4 @@ def send_email(reciever_email, subject, body):
         server.sendmail(SENDER_EMAIL,reciever_email,message)
 
 send_email('bebidems08@gmail.com','Hello',
-           'JOB HAS FINISHED')
+           'WOW')
